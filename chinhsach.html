@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chính sách - Black MMO</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #0d0d0d;
+      color: #ccc;
+      font-family: 'Courier New', monospace;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      color: #00ff88;
+      text-shadow: 0 0 5px #00ff88;
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+      background-color: #111;
+      border-bottom: 1px solid #222;
+    }
+
+    .tab {
+      padding: 14px 30px;
+      cursor: pointer;
+      color: #888;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    .tab:hover, .tab.active {
+      color: #00ff88;
+      text-shadow: 0 0 5px #00ff88;
+      border-bottom: 2px solid #00ff88;
+    }
+
+    .content {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.7;
+    }
+
+    .section {
+      display: none;
+      animation: fade 0.5s ease-in-out;
+      white-space: pre-line;
+    }
+
+    .section.active {
+      display: block;
+    }
+
+    h2 {
+      color: #00ffaa;
+      text-shadow: 0 0 3px #00ffaa;
+      margin-bottom: 20px;
+    }
+
+    @keyframes fade {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .icon {
+      margin-right: 6px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CHÍNH SÁCH & HƯỚNG DẪN</h1>
+  </header>
+
+  <div class="tabs">
+    <div class="tab active" onclick="showTab('newbie')">🧠 DÀNH CHO NGƯỜI MỚI</div>
+    <div class="tab" onclick="showTab('rules')">⚠️ CHÍNH SÁCH SỬ DỤNG</div>
+    <div class="tab" onclick="showTab('warranty')">🛡️ CHÍNH SÁCH BẢO HÀNH</div>
+  </div>
+
+  <div class="content">
+    <div id="newbie" class="section active">
+      <h2>🧠 DÀNH CHO NGƯỜI MỚI</h2>
+      Xin chào các bạn, mình là ADMIN của BlackChannel, có lẽ mảng này khá mới với anh em mới tham gia vào Black MMO, mình sẽ giải thích sơ qua về cách thức hoạt động và kiếm tiền với mảng này cho anh em dễ hiểu nhé:
+      
+      - Đầu tiên là cách thức hoạt động:
+      + Ví này từ đâu mà ra nhỉ ?: Hiện tại mình đang điều hành một Team chuyên đào ví Crypto, bọn mình chạy số lượng lớn để đào ra 12 KEY bảo mật ví trên OKX ( cho bạn nào chưa biết thì chỉ cần có 12 KEY bảo mật này thì có thể tự log vào ví và rút tiền nhé ).
+      + Team hoạt động như thế nào? Tại sao lại bán ví ?: Khoảng những năm 2020-2023 bọn mình hoạt động chủ yếu để truy ra các ví có Bitcoin, sau đó thực hiện rút tiền thủ công, sau 3 năm bọn mình liên tục rút hằng trăm nghìn ví Bitcoin và cảm thấy dường như mình không nên tham nữa, vì mình cũng không thể đoán trước được điều, mình nghĩ sẽ có những bạn hiểu ý của mình. Thế nên team mình đã bàn bạc lại với nhau và cho ra trang Web này để mọi người có thể mua ví về và kiếm lợi nhuận.
+      + Liệu mảng Black MMO này có an toàn không ?: Những anh em nào làm trong mảng này lâu rồi sẽ hiểu, vì là số lượng lớn ví được tuồng ra nên các ví sẽ được chia ra nhiều IP khác nhau, nên sẽ rất an toàn cho cả bên bán và bên mua, bên mình sẽ cam kết 100% với các bạn về độ bảo mật thông tin của bên mình. Mình luôn khuyến cáo mọi người nếu muốn an toàn 100% thì một tháng chỉ nên mua tối đa 5 ví, lợi nhuận chắc chắn lên đến hàng trăm triệu rồi nên mọi người đừng tham nữa nhé. 
+
+      - Kiếm tiền bằng cách nào ?:
+      + Cụ thể là bạn sẽ mua lại của bên mình 1 ví OKX random $, có nghĩa là ví bạn nhận sẽ có số $ ngẫu nhiên trong mức mà mình đã đề ra trên web, tùy vào gói bạn mua ( Nếu ví nhận về có số $ thấp hơn mức tối thiểu đã đề ra mình sẽ hoàn tiền 100% )
+      + Đến bước thanh toán, hãy điền sẵn phần Email và thông tin liên hệ như Zalo hoặc Telegram
+      + Sau đó chuyển khoản, chuyển thành công nhớ chụp bill lại
+      + Chuyển xong bấm vào nút đã thanh toán và liên hệ qua Telegram mình có để sẵn ở đó để gửi bill thanh toán
+      + Sau khi gửi bill thanh toán, khoảng 1-2p sẽ có thư gửi đến mail của bạn, trong đó có 12 KEY bảo mật ví Web3 của OKX ( Nếu quá 5 phút chưa có mail nào gửi đến, liên hệ Telegram mình để được hỗ trợ hoặc hoàn tiền )
+      + Tải OKX về, nếu có tài khoản rồi thì đăng nhập, không thì đăng ký
+      + Coppy 12 KEY bảo mật ấy ( Nhớ là không share 12 KEY này ra ngoài )
+      + Chuyển qua ví Web3 và dán 12 KEY bảo mật vào, ví sẽ được log vào
+      + Kiểm tra số $ và thực hiện rút về tài khoản OKX
+      + Thực hiện giao dịch P2P trên OKX để bán USDT có trong tài khoản
+      + Cầm tiền về tối lên bar chơi thôi.
+    </div>
+
+    <div id="rules" class="section">
+      <h2>⚠️ CHÍNH SÁCH SỬ DỤNG</h2>
+      Đây là trang Web mua bán các tài khoản ví Crypto được hack từ US
+      Đây là đôi lời ADMIN muốn tâm sự với các bạn đang hành nghề hoặc mới tham gia vào mảng này:
+      - Khi các bạn bỏ một số tiền nhỏ ra để mua ví và nhận lại một số tiền lớn từ ví, mình hiểu các bạn sẽ rất thích phô trương, khoe về mảng này nhưng các bạn ạ, không nên khoe mẽ hay phô trương mảng này nhé, vì đây là Black MMO, mình sẽ CAM KẾT giữ an toàn thông tin của các bạn, nếu các bạn tự ý khoe mẽ lên mạng xã hội là các bạn đang tự đẩy bản thân vào tình thế khó, mình sẽ không chịu bất cứ trách nhiệm gì nếu các bạn làm vậy nhé !!!
+      - Mảng này lợi nhuận rất cao, nếu làm thì nên làm một mình, không nên chia sẻ cho ai, càng không nên tham lam càng quét hết ví có trên Web, nếu mình phát hiện IP nào SPAM thì mình sẽ ban thiết bị vĩnh viễn nhé. Chỉ nên mua đủ dùng, kiếm đủ tiền, 1 tháng chỉ nên mua 4-5 ví ( Lợi nhuận có thể lên đến hàng trăm triệu rồi, nên mọi người đừng tham lam nhé ! ), hãy để phần người khác thay vì càng quét hết nhé !!!
+    </div>
+
+    <div id="warranty" class="section">
+      <h2>🛡️ CHÍNH SÁCH BẢO HÀNH</h2>
+      - Mình sẽ bảo hành tất cả những trường hợp dưới đây :
+      + Quá 5 phút sau khi thanh toán nhưng vẫn chưa nhận được thông tin ví về mail
+      + Số $ thấp hơn mức tối thiểu đã đề ra
+      + Các vấn đề liên quan tới việc rút $ về
+      + 12 KEY bảo mật sai, không log vào ví được 
+      Nếu gặp phải các trường hợp trên vui lòng liên hệ qua Telegram: @hotroviokx để được hỗ trợ nhanh chóng.
+
+      - Những trường hợp mình không bảo hành:
+      + Nhận ví quá 24h nhưng không chịu rút tiền, khi thông tin ví bị thay đổi thì đòi bảo hành là không có nhé, nhận thông tin ví về là log vào ngay, rút tiền ngay.
+      + Quá 24h sau khi nhận ví mới báo là $ trong ví không đủ mức tối thiểu
+    </div>
+  </div>
+
+  <script>
+    function showTab(tabId) {
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      event.target.classList.add('active');
+    }
+  </script>
+</body>
+</html>
